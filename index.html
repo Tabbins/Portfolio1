@@ -6,14 +6,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Lernantino // Web Developer</title>
-  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./css/style.css" />
 </head>
 
 <body>
   <!-- main logo / nav -->
   <header>
-    <h1>Lernantino</h1>
+    <div id="logo">
+      
+      <h1> <img class="avatar" src="./images/avatar.jpg"/> Lernantino</h1>
+    </div>
     <nav>
+      <a href="#about"> About Me </a>
+      <a href="#work"> Work </a>
+      <a href="#Contact Me"> Contact Me </a>
     </nav>
   </header>
 
@@ -24,20 +30,53 @@
     </div>
   </section>
 
-  <main class="page-wrapper">
+  <main class="page-wrapper"> <!-- Idk how this works?-->
     <!-- about me -->
     <section class="page-section" id="about">
       <h2>About Me</h2>
+      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi interdum, leo eget ullamcorper lacinia, nibh dui eleifend purus, at vulputate leo enim in nunc. Maecenas in libero nec ligula fermentum rhoncus vel a ipsum. Donec sapien mauris, sollicitudin efficitur nulla ut, feugiat interdum odio. Maecenas dictum, lacus ac semper fermentum, nisl tortor facilisis massa, et commodo odio orci nec leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquet velit risus, porttitor elementum nunc eleifend at. Nunc fermentum sapien in quam dignissim tincidunt. Pellentesque nibh nulla, molestie id arcu id, lacinia sollicitudin est. Aliquam erat volutpat. Nulla pellentesque ut libero rutrum posuere. </p>
     </section>
 
-    <!-- portfolio container -->
+    <!-- portfolio container - would these be background images in the sections? -->
     <section class="page-section" id="work">
       <h2>Work</h2>
+      <section class="projects"> 
+        <section id="project1">
+          <h3>Project 1</h3>
+          <span> HTML/CSS</span>
+        </section>
+        <section id="project2">
+          <h3>Project 2</h3>
+          <span> Languages</span>
+        </section>
+        <section id="project3">
+          <h3>Project 3</h3>
+          <span> Languages</span>
+        </section>
+        <section id="project4">
+          <h3>Project 4</h3>
+          <span> Languages</span>
+        </section>
+        <section id="project5">
+          <h3>Project 5</h3>
+          <span> Languages</span>
+        </section>
+      </section>
+      
+      
+      <!-- Project 1 - main.-->
+      <!-- Project 2345 split into grid of 4-->
+      
     </section>
 
     <!-- contact -->
     <section class="page-section contact" id="contact">
       <h2>Contact Me</h2>
+      
+      <a href="555.555.555"> 555.555.555 </a>
+      <a href="tabbitales@gmail.com"> tabbitales@gmail.com </a>
+      <a href="https://github.com/Tabbins"> Github </a>
+      <a href="twitter.com"> Twitter </a>
     </section>
   </main>
 </body>

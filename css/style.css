@@ -21,3 +21,32 @@ h6 {
 p {
   margin: 0;
 }
+
+
+
+
+header{ 
+  width: 100%;
+  margin: 0;
+  padding: 2.5rem;
+  background-color: black;
+}
+
+
+h1{ 
+  background-color: aquamarine;
+}
+
+
+nav a{ 
+  color: aquamarine;
+}
+
+.avatar { 
+  max-width: 20%;
+  max-height: 10%;
+}
+
+
+
+/* MEDIA QUERIES */
