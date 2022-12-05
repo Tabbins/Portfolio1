@@ -49,4 +49,28 @@ nav a{
 
 
 
+
+/* Titled Images */
+
+
+.container {
+  position: relative;
+}
+
+#projects img{ 
+  width: 30%;
+  height: 20%;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
 /* MEDIA QUERIES */
