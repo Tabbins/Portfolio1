@@ -97,7 +97,7 @@ nav a{
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 800px)  {
+@media screen and (max-width: 900px)  {
   header{ 
     height: 4rem;
     
@@ -124,10 +124,12 @@ nav a{
   .hero-banner h2 {
     margin: 0.4rem;
     background-color: #b1e9dd ;
-}
+
+  }
+
 }
 
-@media screen and (min-width: 801px) { 
+@media screen and (min-width: 901px) { 
   header, nav, h1 { 
     display: flex;
     justify-content: space-evenly;
@@ -135,7 +137,16 @@ nav a{
     align-items: center;
   }
 
+ #projects .container{ 
+  width: 30%;
+  height: auto; 
+  float: left;
+  margin: 1%
+ }
  
+ .page-section { 
+  clear: both
+ }
   /*put grid in here so page goes into grid when large enough?*/ 
 }
 
