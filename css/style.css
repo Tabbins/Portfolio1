@@ -76,4 +76,51 @@ nav a{
 }
 
 
+
+
+
+
 /* MEDIA QUERIES */
+
+@media screen and (max-width: 800px)  {
+  header{ 
+    height: 4rem;
+    
+  }
+   header, .hero-banner, main { 
+    width: 100%;
+    
+    margin: 2rem;
+  }
+
+  nav{ 
+    float: right;
+  }
+}
+
+@media screen and (min-width: 801px) { 
+
+  /*put grid in here so page goes into grid when large enough?*/ 
+}
+
+/*  I DONT UNDERSTAND HOW TO MAKE A GRID 
+
+.pagewrapper { 
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+    title cont
+    title cont
+    title cont
+  ;
+}
+
+.title { 
+  grid-area: title;
+}
+.content{ 
+  grid-area: cont;
+}
+
+*/ 
